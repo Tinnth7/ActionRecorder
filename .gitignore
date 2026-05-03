@@ -6,3 +6,6 @@ dist/
 build/ 
 dist/ 
 *.spec 
+build/ 
+dist/ 
+*.spec 
