@@ -246,7 +246,7 @@ class ActionRecorderApp:
         header = tk.Frame(self.root, bg=UI['surface'], pady=18)
         header.pack(fill=tk.X)
 
-        tk.Label(header, text="⏺ ActionRecorder",
+        tk.Label(header, text="ActionRecorder",
                  bg=UI['surface'], fg=UI['accent'],
                  font=(UI['font'], 20, 'bold')).pack()
         tk.Label(header, text="Record. Replay. Automate.",
@@ -254,7 +254,7 @@ class ActionRecorderApp:
                  font=(UI['font'], 9)).pack(pady=(2, 0))
 
         # ── Hotkey hint ─────────────────────────────────────
-        tk.Label(header, text="Ctrl+Shift+S — stop recording or playback anytime",
+        tk.Label(header, text="Ctrl+Shift+S to stop recording or playback anytime",
                  bg=UI['surface'], fg=UI['accent'],
                  font=(UI['font'], 8, 'bold')).pack(pady=(4, 0))
 
